@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="281" height="88" viewBox="0 0 281 88">
+  <defs>
+    <filter id="WeatherX_" x="0" y="0" width="281" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.314"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#WeatherX_)">
+    <text id="WeatherX_2" data-name="WeatherX 
+" transform="translate(4.5 3.5)" fill="#1957c5" font-size="57" font-family="Lobster-Regular, Lobster"><tspan x="0" y="60">Weather</tspan><tspan y="60" font-family="Frijole" fill="#000">X </tspan><tspan y="60" font-family="HelveticaNeue, Helvetica Neue" fill="#000"></tspan></text>
+  </g>
+</svg>
