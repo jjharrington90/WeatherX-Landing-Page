@@ -46,10 +46,7 @@ html, body {
       }
 
     .button-large:hover {
-      opacity: .8;
-      position: relative;
-             top: -3px;
-      transition-delay: 2s;
+      color: black;
       }
 
 
